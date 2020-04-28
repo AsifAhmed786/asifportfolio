@@ -30,6 +30,23 @@ marquee{
   background-color: blue;
   color: white;
   display: block;
+  margin: 5px auto;
+}
+
+/* @media only screen and (max-width:1000px)
+{
+  img{
+    width: 200%;
+    height: 90%;
+  }
+} */
+.heading{
+  font-family: Times, 'Times New Roman', serif !important;
+}
+p{
+  font-family: calibri;
+  font-size: 16px;
+  color:darkslategrey;
 }
 }
 
