@@ -1,14 +1,28 @@
 body{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
 td{
-    line-height: 2;
-    width: 0vmax;
+    line-height: 2 !important;
+    width: 0vmax !important;
 }
 h3,h1{
-    text-align: center;
-    color: rgb(127, 0, 255);   
+    text-align: center !important;
+    color: rgb(127, 0, 255) !important;   
+}
+#but1{
+    border: none; 
+    background-color: green; 
+    color: white; 
+    width: 120px; 
+    height: 40px; 
+    border-radius: 5px;
+}
+#but1:hover{
+    cursor: pointer;
+}
+.table1{
+    box-shadow: 10px 0px 20px darkgray;
 }
 
