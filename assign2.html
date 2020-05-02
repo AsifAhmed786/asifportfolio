@@ -9,39 +9,27 @@
 </head>
 
 <body>
-    
-    
-    <form  action="success.html" method="GET">
-        <table align="center">
-            <tr>
-                <td align="center">
-                    <img src="images\sylani.png" alt="Sylani">
-                </td>
-            </tr>
-            <tr>
-                <td align="center">                    
-                    <h3><u>STUDENT REGISTRATION FORM</u></h3>  
-                </td>
-            </tr>
-            <tr>
-                <td align="center">                    
-                    <center><a href="index.html"><button type="button" id="but1" >Back to Home</button></a></center>
-                </td>
-            </tr>
 
-            
-        
+
+    <form action="success.html" method="GET">
+        <center>
+            <div><img src="images\sylani.png" alt="Sylani"></div>
+            <div><h3><u>STUDENT REGISTRATION FORM</u></h3></div>
+            <div><a href="index.html"><button type="button" id="but1">Back to Portfolio</button></a></div>
+        </center>    
         </table>
-       <table class="table1" align="center" style="background-color: rgb(127, 0, 255);">
-        
+        <table class="table1" align="center" style="background-color: rgb(127, 0, 255);">
+
             <tr>
                 <td><label for="namid">FIRST NAME</label></td>
-                <td><input type="text" pattern="[a-zA-Z]{1,30}" name="namn" id="namid" maxlength="30" placeholder="Enter first name"> (max 30 characters a-z and A-Z)
+                <td><input type="text" pattern="[a-zA-Z]{1,30}" name="namn" id="namid" maxlength="30"
+                        placeholder="Enter first name"> (max 30 characters a-z and A-Z)
                 </td>
             </tr>
             <tr>
                 <td><label for="lnamid">LAST NAME</label></td>
-                <td><input type="text" required name="lnamn" pattern="[a-zA-Z]{1,30}" id="lnamid" maxlength="30" placeholder="Enter last name"> (max 30 characters a-z and A-Z)
+                <td><input type="text" required name="lnamn" pattern="[a-zA-Z]{1,30}" id="lnamid" maxlength="30"
+                        placeholder="Enter last name"> (max 30 characters a-z and A-Z)
                 </td>
             </tr>
             <tr>
@@ -98,7 +86,7 @@
                             <option value="December">December</option>
                         </select>
                         <select name="yearn" id="yearid">
-                            <option value="Year">   Year:</option>
+                            <option value="Year"> Year:</option>
                             <option value="2001">2001</option>
                             <option value="2002">2002</option>
                             <option value="2003">2003</option>
@@ -125,12 +113,12 @@
             </tr>
             <tr>
                 <td><label for="emailid">EMAIL ID</label></td>
-                <td><input type="email" required name="emailn" id="emailid" placeholder="Enter email address"
-                        ></td>
+                <td><input type="email" required name="emailn" id="emailid" placeholder="Enter email address"></td>
             </tr>
             <tr>
                 <td><label required for="mobid">MOBILE NUMBER</label></td>
-                <td><input type="tel" maxlength="10" pattern="[0-9]{10}" name="mobn" id="mobid" placeholder="Enter mobile number"> (10 digit number)</td>
+                <td><input type="tel" maxlength="10" pattern="[0-9]{10}" name="mobn" id="mobid"
+                        placeholder="Enter mobile number"> (10 digit number)</td>
             </tr>
             <tr>
                 <td><label for="genderid">GENDER</label></td>
@@ -145,21 +133,25 @@
             </tr>
             <tr>
                 <td><label for="cityid">CITY</label></td>
-                <td><input type="text" required name="cityn" id="cityid" pattern="[a-zA-Z]{1,30}" maxlength="30" placeholder="Enter city name"> (max 30 characters a-z and A-Z)
+                <td><input type="text" required name="cityn" id="cityid" pattern="[a-zA-Z]{1,30}" maxlength="30"
+                        placeholder="Enter city name"> (max 30 characters a-z and A-Z)
                 </td>
             </tr>
             <tr>
                 <td><label for="pinid">PIN CODE</label></td>
-                <td><input type="password" required pattern="[0-9]{6}" name="pinn" id="pinid" maxlength="6" placeholder="Enter pin code"> (6 digit number)
+                <td><input type="password" required pattern="[0-9]{6}" name="pinn" id="pinid" maxlength="6"
+                        placeholder="Enter pin code"> (6 digit number)
                 </td>
             </tr>
             <tr>
                 <td><label for="stati">STATE</label></td>
-                <td><input type="text" required name="statn" id="stati" placeholder="Enter state" pattern="[a-zA-Z]{1,30}" maxlength="30"> (max 30 characters a-z and A-Z)</td>
+                <td><input type="text" required name="statn" id="stati" placeholder="Enter state"
+                        pattern="[a-zA-Z]{1,30}" maxlength="30"> (max 30 characters a-z and A-Z)</td>
             </tr>
             <tr>
                 <td><label for="counid">COUNTRY</label></td>
-                <td><input type="text" required name="counn" id="counid" maxlength="30" pattern="[a-zA-Z]{1,30}" placeholder="Enter country"> (max 30 characters a-z and A-Z)
+                <td><input type="text" required name="counn" id="counid" maxlength="30" pattern="[a-zA-Z]{1,30}"
+                        placeholder="Enter country"> (max 30 characters a-z and A-Z)
                 </td>
             </tr>
             <tr>
@@ -204,7 +196,7 @@
                             <td></td>
                             <td><label for="boardgraid">3</label></td>
                             <td><label for="boardgraid">Graduation</label></td>
-                            <td><input type="text" name="boardgran" id="boardgraid"maxlength="10"></td>
+                            <td><input type="text" name="boardgran" id="boardgraid" maxlength="10"></td>
                             <td><input type="number" name="percgran" id="percgraid"></td>
                             <td><input type="number" name="yeargran" id="yeargraid"></td>
                         </tr>
@@ -213,8 +205,8 @@
                             <td><label for="boardmasid">4</label></td>
                             <td><label for="boardmasid">Masters</label></td>
                             <td><input type="text" name="boardmasn" id="boardmasid" maxlength="10"></td>
-                            <td><input type="number" name="percmasn" id="percmasid" ></td>
-                            <td><input type="number" name="yearmasn" id="yearmasid" ></td>
+                            <td><input type="number" name="percmasn" id="percmasid"></td>
+                            <td><input type="number" name="yearmasn" id="yearmasid"></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -231,8 +223,9 @@
 
             <tr>
                 <td width="100%">COURSES APPLIED FOR</td>
-                <td>BCA <input type="radio" rquired name="courn" id="courid" value="bca"> B.Com <input type="radio" required name="courn"
-                        id="courid" value="bcom"> BSC <input required type="radio" name="courn" id="courid" value="bsc"> BA
+                <td>BCA <input type="radio" rquired name="courn" id="courid" value="bca"> B.Com <input type="radio"
+                        required name="courn" id="courid" value="bcom"> BSC <input required type="radio" name="courn"
+                        id="courid" value="bsc"> BA
                     <input type="radio" name="courn" id="courid" value="ba"></td>
             </tr>
             <tr>
@@ -242,7 +235,7 @@
         </table>
 
     </form>
-    
+
 </body>
 
 </html>

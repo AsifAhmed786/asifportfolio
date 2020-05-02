@@ -8,7 +8,7 @@ td{
     width: 0vmax !important;
 }
 h3,h1{
-    text-align: center !important;
+    /* text-align: center !important; */
     color: rgb(127, 0, 255) !important;   
 }
 #but1{
@@ -24,5 +24,14 @@ h3,h1{
 }
 .table1{
     box-shadow: 10px 0px 20px darkgray;
+}
+div{
+    margin: 0 auto;
+}
+@media only screen and (max-width: 600px)
+{
+    div{
+        text-align: center;
+    }
 }
 
