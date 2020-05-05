@@ -20,33 +20,7 @@ ul {
   color: white !important;
 }
 
-@media only screen and (max-width:1000px) {
-  .pane {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    align-items: center;
-  }
-  .counter
-  {
-    width: 200px !important;
-  }
-}
-@media only screen and (max-width:800px){
-  .card1{
-    width: 100% !important;
-  }
-  
 
-}
-
-@media only screen and (max-width:600px){
-  .card1{
-    width: 100% !important;
-  }
-  
-
-}
 
 .heading {
   font-family: Times, 'Times New Roman', serif !important;
@@ -65,7 +39,7 @@ a.drop:hover{
 
 }
 
-ul li{
+.litop{
   display: inline;
   
 }

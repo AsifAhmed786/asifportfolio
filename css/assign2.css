@@ -25,13 +25,3 @@ h3,h1{
 .table1{
     box-shadow: 10px 0px 20px darkgray;
 }
-div{
-    margin: 0 auto;
-}
-@media only screen and (max-width: 600px)
-{
-    div{
-        text-align: center;
-    }
-}
-
