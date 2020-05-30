@@ -1,0 +1,91 @@
+body{
+  background-color: green;
+}
+@font-face{
+  font-family: 'Handlee';
+  src: url("../fonts/Handlee-Regular.ttf");
+}
+
+.ff{
+  
+  font-family: 'Handlee';
+}
+
+#messenger{
+  
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  z-index: 1;
+  width: 5%;
+  
+}
+@media only screen and (max-width:800px) {
+  #messenger{
+  
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    z-index: 1;
+    width: 15%;
+    
+  }
+}
+@media only screen and (max-width:600px) {
+  #messenger{
+  
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    z-index: 1;
+    width: 15%;
+    
+  }
+}
+.para{
+  line-height: 2px;
+}
+ul li{
+  color: white;
+  list-style-type: none;
+}
+ul{
+  color: white;
+  padding-left: 0;
+  
+}
+li a, p{
+  font-size:15px;
+}
+.categories a{
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+.categories a:hover{
+  font-weight: bold;
+}
+.socbot{
+  font-size: 25px !important;
+}
+.fa-shopping-cart,.fa-user-circle{
+  font-size: 20px !important;
+  color: white !important;
+  padding: 5px;
+}
+.offer{
+  border-radius: 100px !important;
+}
+.bl{
+  display: block;
+
+}
+.list1 li{
+  display: inline;
+}
+
+.div1{
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
